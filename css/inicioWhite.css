@@ -1,0 +1,304 @@
+@font-face {
+  font-family: 'istok_Web_regular';
+  /* Name your font family */
+  src: url('../fonts/Istok_Web/IstokWeb-Regular.ttf');
+  /* Locate the .ttf file within your directory*/
+}
+
+@font-face {
+  font-family: 'istok_Web_italic';
+  /* Name your font family */
+  src: url('../fonts/Istok_Web/IstokWeb-Italic.ttf');
+  /* Locate the .ttf file within your directory*/
+}
+
+@font-face {
+  font-family: 'istok_Web_bold_italic';
+  /* Name your font family */
+  src: url('../fonts/Istok_Web/IstokWeb-BoldItalic.ttf');
+  /* Locate the .ttf file within your directory*/
+}
+
+@font-face {
+  font-family: 'istok_Web_bold';
+  /* Name your font family */
+  src: url('../fonts/Istok_Web/IstokWeb-Bold.ttf');
+  /* Locate the .ttf file within your directory*/
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#barra img {
+  position: absolute;
+  z-index: 1;
+
+}
+
+#itens-nav a {
+  color: aliceblue;
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: istok_Web_bold;
+  transition: 1s;
+}
+
+#itens-nav a:hover{
+  color: rgb(186, 193, 197);
+  letter-spacing: 0.03em;
+  transition: 1s;
+}
+
+.pesquisa {
+  width: 30%;
+  height: 2%;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 22px;
+  border-color: aliceblue;
+  border-width: 1px;
+  border-style: solid;
+  float: right;
+  margin-right: 3%;
+}
+
+.pesquisa .pesquisar {
+  float: inline-end;
+  margin-inline-end: 93%;
+}
+
+#set1 {
+  float: right;
+  margin-right: 4%;
+  margin-left: 10px;
+  transform: scale(1.4);
+  background-color: transparent;
+  border: none !important;
+  font-size: 0;
+}
+
+#set1:hover{
+  cursor: pointer;
+}
+
+.set{
+  float: right;
+  margin-right: 10px;
+  transform: scale(1.4);
+}
+
+.setar {
+  font-size: 40px;
+}
+
+.Ii {
+  text-decoration: none;
+  margin-inline-start: 60%;
+  font-size: 5em;
+}
+
+#barra {
+  width: 100%;
+  height: 60px;
+  background-color: #AC6AB7;
+
+}
+
+.container-log{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fundo{
+  background-color: #f5c8eca9;
+  height: 20000px;
+  width: 70%;
+}
+
+.frame{
+  background-color: transparent;
+  height: calc(auto);
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+
+.fotoperfil{
+  background-color: rgba(185, 129, 61, 0);
+  float: left;
+  margin-left: 5%;
+  border-radius: 50%;
+}
+
+.fotoperfil:hover{
+  cursor: pointer;
+}
+
+.perfil{
+  width: 80%;
+  height: 50px;
+  background-color: rgba(240, 248, 255, 0);
+
+}
+
+.nomet{
+  float: left;
+  margin-left: 2%;
+  font-size: 1.2em;
+  color: rgb(41, 40, 40);
+
+}
+
+
+.baseComentario{
+  background-color: #d19bd3;
+  font-size: 1em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  color: azure;
+  font-family: istok_Web_bold;
+  border-radius: 22px;
+  text-align: center;
+  text-size-adjust: calc(auto);
+}
+
+.painel{
+  background-color: transparent;
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;;
+}
+
+.bot{
+  background-color: #d19bd3;
+  border-radius:  22px;
+  border-style: solid;
+  border-color: #d19bd3;
+  width:8%;
+  padding-top: 0.7%;
+  margin-right: 1%;
+  text-align-last: center;
+  color: aliceblue;
+  font-family: istok_Web_bold;
+  transition: 1s;
+}
+
+.bot:hover{
+  color: rgb(196, 202, 207);
+  width:8.9%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Cmd{
+  transform: scale(1);
+}
+
+i{
+  float: left;
+  color: antiquewhite;
+}
+
+#barra-config{
+  background-color: #d19bd3;
+  height: 250px;
+  width: 150px;
+  float: right;
+  display: block;
+  position: -1000px;
+  transition: 1s;
+  border-radius: 20px;
+}
+
+.conf{
+  height: 50px;
+  width: 100px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-color: #b985bb;
+  border: solid 1px;
+  font-family: istok_Web_bold;
+  font-size: 0.8em;
+  border-radius: 20px;
+  border-color: white;
+  transition: 1s;
+}
+
+.conf:hover{
+  cursor: pointer;
+  height: 55px;
+  width: 110px;
+  text-justify: 2px;
+  transition: 1s;
+}
+
+#modo{
+  height: 20px;
+  width: 100px;
+  display: block;
+  float: left;
+  text-wrap: nowrap;
+  border-radius: 20px;
+  border: solid 1px;
+  text-decoration: none;
+  color: aliceblue;
+  border-color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+  text-align: center;
+  transition: 1s;
+}
+
+#modo:hover{
+  cursor: pointer;
+  height: 25px;
+  width: 110px;
+  text-justify: 2px;
+  transition: 1s;
+}
+
+@media only screen and (min-width: 400px) and (max-width:600px) {
+  #itens-nav a {
+    margin: 3px;
+  }
+
+  .pesquisa {
+    margin-right: 1%;
+    float: right;
+    width: 30%;
+  }
+
+  .pesquisa .pesquisar {
+    margin-inline-end: 80%;
+  }
+
+  i{
+    margin-inline-start: 1%;
+  }
+
+  #set1{
+    transform: scale(1.0);
+  }
+
+  .set{
+    transform: scale(1.0);
+  }
+  .Cmd{
+    transform: scale(0.5);
+  }
+
+
+}
