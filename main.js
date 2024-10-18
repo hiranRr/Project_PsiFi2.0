@@ -28,10 +28,3 @@ function appear(){
     }
 }
 
-function clonarTextos(){
-    const originalElement = document.getElementById('frame');
-    const clonedElement = document.createElement('div');
-    clonedElement.innerHTML = originalElement.innerHTML;
-    document.body.appendChild(clonedElement)    
-
-}
